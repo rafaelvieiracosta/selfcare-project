@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  background-color: #ADDE87;
+  min-height: 220px;
+}
+
+.banner img{
+  max-width: 100%;
+  object-fit: cover;
+}
+
+section {
+  border-bottom: 1px solid #a5a1a1;
+}
+
+.titulos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+
+.titulos h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1rem;
+}
+.titulos p {
+  font-size: 1rem;
+  font-weight: 700;
+}

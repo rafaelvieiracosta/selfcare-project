@@ -1,0 +1,97 @@
+footer {
+  background: #f9f9f9;
+}
+
+.cima {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}
+.c {
+  border-bottom: 1px solid #a5a1a1;
+}
+.menu-footer li {
+  padding: 5px 0;
+}
+
+.menu-footer li a {
+  color: #161616;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.menu-footer li a:hover {
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+form{
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+form input {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid #a5a1a1;
+  border-radius: 5px 0 0 5px;
+  width: 400px;
+}
+
+button {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #ffffff;
+  background-color: #5ca720;
+  border-radius: 0 5px 5px 0;
+  padding: 9px 17px;
+  padding-bottom: 10px;
+  position: relative;
+  left: -5px;
+  border: 1px solid #5ca720;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #34680a;
+  border-color: #34680a;
+}
+
+input:focus {
+  border: 1px solid #5ca720;
+}
+
+.baixo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.baixo img{
+  width: 40px;
+}
+@media (max-width:630px){
+  form input {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+  }
+  button {
+    border-radius: 0 0 5px 5px;
+    left: initial;
+    width: 100%;
+  }
+}
